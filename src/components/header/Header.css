@@ -1,0 +1,6 @@
+.header-old{
+    border-style: solid;
+    border-color: 2px red;
+    height: 100%;
+    min-height: 100vh;
+}
