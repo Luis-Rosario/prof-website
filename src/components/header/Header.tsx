@@ -1,6 +1,9 @@
-import React from 'react';
-import ButCluster from './ButCluster';
-import './Header.css';
+import React from "react";
+import ButCluster from "./ButCluster";
+import "./Header.css";
+import ProfileImg from "../../assets/img-cut.png";
+import ProfileImgNoBg from "../../assets/img-removebg-preview-cut.png";
+import Socials from "./Socials";
 
 
 function Header() {
@@ -9,8 +12,13 @@ function Header() {
      <div className="container header__container">
        <h5>Hello I'm</h5>
        <h1>Luís Rosário</h1>
-       <h5 className='text-light'>Computer science Engineer</h5>
+       <h5 className='text-light'>Computer Science Engineer</h5>
       <ButCluster></ButCluster>
+      <div className="profile-img">
+        <img src={ProfileImgNoBg} alt="profileImg" />
+      </div>
+      <a href="#contact" className="scrolld">Scroll down</a>
+      <Socials></Socials>
      </div>
    </header>
   );

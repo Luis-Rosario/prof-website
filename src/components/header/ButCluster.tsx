@@ -5,8 +5,8 @@ function ButCluster() {
 
     return(
     <div className="butCluster">
-        <a href={CV} target="_blank">Download CV</a>
-        <a href="">Contacts</a>
+        <a href={CV} target="_blank" className="btn">Download CV</a>
+        <a href="#contacts" className="btn btn-primary" >Talk to me</a>
     </div>
     )
 }
