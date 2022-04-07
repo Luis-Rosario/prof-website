@@ -1,0 +1,39 @@
+    .about__container {
+        /*border: 5px solid var(--color-primary);*/
+        border-radius: 1rem 1rem 1rem 1rem;
+        padding: 2rem 2rem 2rem 2rem;
+        background-color: rgba(255, 255, 255, 0.739);
+        box-shadow: 2px 2px var(--color-shadow);
+        margin-top: 4rem;
+        color: black
+    }
+    
+    .title-section {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+        white-space: nowrap;
+    }
+    
+    .title-section::after {
+        content: '';
+        width: 90%;
+        height: 2px;
+        background: black;
+        /*var(--color-light);*/
+        margin-left: 1rem;
+    }
+    
+    #about {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .title {
+        color: var(--color-primary)
+    }
+    
+    .subtitle {
+        color: var(--color-light)
+    }

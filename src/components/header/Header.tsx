@@ -8,7 +8,7 @@ import Socials from "./Socials";
 
 function Header() {
   return (
-   <header>
+   <header id="home">
      <div className="container header__container">
        <h5>Hello I'm</h5>
        <h1>Luís Rosário</h1>
@@ -17,7 +17,7 @@ function Header() {
       <div className="profile-img">
         <img src={ProfileImgNoBg} alt="profileImg" />
       </div>
-      <a href="#contact" className="scrolld">Scroll down</a>
+      <a href="#about" className="scrolld">Scroll down</a>
       <Socials></Socials>
      </div>
    </header>

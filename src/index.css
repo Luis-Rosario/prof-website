@@ -16,10 +16,12 @@
 :root {
     --color-bg: #515257;
     --color-bg-variant: #2c2c6c;
-    --color-primary: #388bc7;
-    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-primary: rgb(60, 149, 213);
+    --color-primary-variant: #1c6faa8a;
     --color-white: #fff;
-    --color-light: rgba(255, 255, 255, 0.6);
+    --color-light: rgba(255, 255, 255, 0.775);
+    --color-light-transparent: rgba(255, 255, 255, 0.6);
+    --color-shadow: #47484b;
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-sm: 90%;

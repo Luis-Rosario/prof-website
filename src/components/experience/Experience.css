@@ -1,0 +1,96 @@
+.experience__container {
+    padding-top: 6rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.expcard-container {
+    padding: 1rem 2rem 2rem 2rem;
+}
+
+.experience-card {
+    background-color: var(--color-primary-variant);
+    border-radius: 1rem 1rem 1rem 1rem;
+    margin-top: 2rem;
+    padding: 2rem 2rem 2rem 2rem;
+    box-shadow: 2px 2px var(--color-shadow);
+}
+
+.expCard-header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.expCard-header>.header-right-sec {
+    color: var(--color-light);
+}
+
+.expCard-descp-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: stretch;
+}
+
+.expCard-company-desc {
+    padding: 1rem;
+}
+
+.expCard-responsab {
+    background-color: var( --color-light-transparent);
+    color: black;
+    padding: 1rem;
+    border-radius: 0.5rem 0.5rem;
+    border: solid 0.1rem black;
+    display: flex;
+    flex-direction: column;
+}
+
+.expCard-responsab-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    white-space: nowrap;
+    color: rgba(0, 0, 0, 0.79);
+    ;
+}
+
+.expCard-responsab-title::after {
+    content: '';
+    width: 90%;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.567);
+    margin-left: 1rem;
+}
+
+.responsability-List {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-left: 1rem;
+}
+
+.header-right-sec {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.company-logo>img {
+    height: 50px;
+    padding-left: 1rem;
+    object-fit: contain;
+}
+
+.responsability-List>li {
+    padding-top: 0.5rem;
+}
+
+.comp-location {
+    display: flex;
+    flex-direction: column;
+}

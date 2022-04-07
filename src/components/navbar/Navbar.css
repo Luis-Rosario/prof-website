@@ -1,6 +1,18 @@
-.Nav-old{
-    display:flex;
-    justify-content: space-between;
-    position: sticky; 
-    top: 0
+.Nav {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    display: flex;
+}
+
+.Nav>a>svg {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    width: 20px;
+    height: 20px;
+    color: var(--color-primary);
+}
+
+.Nav>a>svg:hover {
+    color: var(--color-white);
 }
