@@ -92,6 +92,29 @@ header {
     margin-left: 1.0em;
 }
 
+.my-name {
+    color: var( --color-dark-blue);
+    margin-top: -0.5rem;
+}
+
+.line-reference::after {
+    content: "";
+    width: 1px;
+    height: 17rem;
+    background: var(--color-dark-blue);
+    transform: rotate(90deg);
+    position: absolute;
+    top: -2rem
+}
+
+.text-light {
+    margin-top: 1rem;
+}
+
+.hello-text {
+    font-size: 500;
+}
+
 
 /*==== MEDIA QUERIES ====*/
 

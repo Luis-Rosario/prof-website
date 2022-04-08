@@ -1,5 +1,5 @@
 
-import React, { useEffect } from 'react';
+import React from 'react';
 import { ExpCardContent } from './Experience';
 import './Experience.css';
 
@@ -10,8 +10,6 @@ import './Experience.css';
 
 
 function ExperCard({ content }: { content: ExpCardContent }) {
-
-  console.log(content.responsabilies)
 
 
   const responsabilityItem = content.responsabilies.map((resp: String, index: number) => (

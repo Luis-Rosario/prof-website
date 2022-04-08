@@ -16,12 +16,15 @@
 :root {
     --color-bg: #515257;
     --color-bg-variant: #2c2c6c;
-    --color-primary: rgb(60, 149, 213);
+    --color-primary: #3c95d5;
     --color-primary-variant: #1c6faa8a;
+    --color-primary-variant2: #315e80;
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.775);
     --color-light-transparent: rgba(255, 255, 255, 0.6);
+    --color-dark-blue: rgb(8, 8, 27);
     --color-shadow: #47484b;
+    --color-whiteish: #ffffffbc;
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
@@ -42,7 +45,8 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(./assets/asfalt-light.png);
+    /*background-image: url(./assets/asfalt-light.png);*/
+    background-image: url(./assets/60-lines.png);
 }
 
 .container {
@@ -101,23 +105,35 @@ a:hover {
     border: 1px solid var(--color-primary);
     transition: var(--transition);
     font-weight: 500;
+    background: var(--color-white);
 }
 
 .btn:hover {
-    background: white;
-    color: var(--color-bg);
+    background: var(--color-primary);
+    color: var(--color-white);
     border-color: transparent;
 }
 
 .btn-primary {
-    color: var(--color-bg);
+    color: var(--color-white);
     background: var(--color-primary);
+}
+
+.btn-primary:hover {
+    color: var(--color-primary);
+    background: var(--color-white);
 }
 
 img {
     display: block;
     width: 100%;
     object-fit: cover;
+}
+
+.App {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
 }
 
 

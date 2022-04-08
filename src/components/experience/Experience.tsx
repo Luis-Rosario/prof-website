@@ -45,7 +45,7 @@ const internshipCreate: ExpCardContent = {
 function Experience() {
     return (
       <div id="experience" className="container experience__container"> 
-         <h3 id='sec-title'>My work experience</h3>
+         <h2 id='sec-title'>My work experience</h2>
          <div className='expcard-container'>
           <ExperCard content={mscResearch}></ExperCard>
           <ExperCard content={internshipCreate}></ExperCard>

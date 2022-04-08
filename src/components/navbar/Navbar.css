@@ -1,18 +1,35 @@
 .Nav {
     position: fixed;
-    top: 1rem;
-    left: 1rem;
+    left: 1.5rem;
+    top: 40vh;
     display: flex;
+    flex-direction: column;
 }
 
 .Nav>a>svg {
-    padding-right: 1rem;
-    padding-left: 1rem;
+    /*padding-right: 1rem;*/
+    /*padding-left: 1rem;*/
+    padding-bottom: 1rem;
     width: 20px;
     height: 20px;
     color: var(--color-primary);
 }
 
-.Nav>a>svg:hover {
+.nav-item:hover>svg {
     color: var(--color-white);
+}
+
+.nav-item:hover>a {
+    color: var(--color-white);
+}
+
+.nav-item {
+    display: flex;
+    color: var(--color-white);
+    cursor: pointer;
+    align-items: center;
+}
+
+.nav-item>a {
+    margin-right: 1rem;
 }

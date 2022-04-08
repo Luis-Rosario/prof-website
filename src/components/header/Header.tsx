@@ -10,9 +10,11 @@ function Header() {
   return (
    <header id="home">
      <div className="container header__container">
-       <h5>Hello I'm</h5>
-       <h1>Luís Rosário</h1>
-       <h5 className='text-light'>Computer Science Engineer</h5>
+       <h2 className="hello-text">Hello I'm</h2>
+       <h1 className="my-name">Luís Rosário</h1>
+        <div className='line-reference'> </div>
+       <h4 className='text-light'>Computer Science Engineer</h4>
+     
       <ButCluster></ButCluster>
       <div className="profile-img">
         <img src={ProfileImgNoBg} alt="profileImg" />

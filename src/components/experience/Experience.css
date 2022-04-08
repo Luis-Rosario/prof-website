@@ -40,11 +40,12 @@
 }
 
 .expCard-responsab {
-    background-color: var( --color-light-transparent);
+    background-color: white/*var( --color-light-transparent)*/
+    ;
     color: black;
     padding: 1rem;
     border-radius: 0.5rem 0.5rem;
-    border: solid 0.1rem black;
+    /*border: solid 0.1rem black;*/
     display: flex;
     flex-direction: column;
 }
@@ -81,8 +82,8 @@
 }
 
 .company-logo>img {
-    height: 50px;
-    padding-left: 1rem;
+    height: 35px;
+    padding-left: 0.8rem;
     object-fit: contain;
 }
 
@@ -93,4 +94,8 @@
 .comp-location {
     display: flex;
     flex-direction: column;
+}
+
+#sec-title {
+    text-shadow: 0 0 2px var(--color-dark-blue), 0 0 2px var(--color-dark-blue)
 }

@@ -2,7 +2,7 @@
         /*border: 5px solid var(--color-primary);*/
         border-radius: 1rem 1rem 1rem 1rem;
         padding: 2rem 2rem 2rem 2rem;
-        background-color: rgba(255, 255, 255, 0.739);
+        background-color: var(--color-whiteish);
         box-shadow: 2px 2px var(--color-shadow);
         margin-top: 4rem;
         color: black
