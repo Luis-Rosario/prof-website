@@ -30,13 +30,10 @@
 
 .expCard-descp-cont {
     display: flex;
-    flex-direction: row;
+    /*flex-direction: row-reverse;*/
     justify-content: space-evenly;
     align-content: stretch;
-}
-
-.expCard-company-desc {
-    padding: 1rem;
+    text-align: justify;
 }
 
 .expCard-responsab {
@@ -48,12 +45,13 @@
     /*border: solid 0.1rem black;*/
     display: flex;
     flex-direction: column;
+    width: 49%;
 }
 
 .expCard-responsab-title {
     display: flex;
     align-items: center;
-    margin-bottom: 1rem;
+    /*margin-bottom: 1rem;*/
     white-space: nowrap;
     color: rgba(0, 0, 0, 0.79);
     ;
@@ -65,6 +63,17 @@
     height: 2px;
     background: rgba(0, 0, 0, 0.567);
     margin-left: 1rem;
+}
+
+.expCard-company-desc {
+    padding: 1rem;
+    width: 49%;
+    flex-direction: row-reverse;
+    display: flex;
+}
+
+.expCard-company-desc-text {
+    width: 80%;
 }
 
 .responsability-List {

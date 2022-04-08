@@ -27,25 +27,23 @@ function ExperCard({ content }: { content: ExpCardContent }) {
         </div>
 
         <div className='header-right-sec'>
-      
-            <div className='comp-location'>
-              <h4 className='card-company'>{content.company}</h4>
-              <h5 className='card-location'>{content.location}</h5>
-            </div>
 
-            <div className='company-logo'>
-              <img src={content.logoPath} />
-            </div>
-           
-    
+          <div className='comp-location'>
+            <h4 className='card-company'>{content.company}</h4>
+            <h5 className='card-location'>{content.location}</h5>
+          </div>
+
+          <div className='company-logo'>
+            <img src={content.logoPath} />
+          </div>
+
+
         </div>
 
       </div>
 
       <div className='expCard-descp-cont'>
-        <div className='expCard-company-desc'>
-          {content.comp_description}
-        </div>
+       
         <div className='expCard-responsab'>
           <div className='expCard-responsab-title'>
             <h4>Responsabilities</h4>
@@ -55,6 +53,13 @@ function ExperCard({ content }: { content: ExpCardContent }) {
             {responsabilityItem}
           </ul>
 
+
+        </div>
+
+        <div className='expCard-company-desc'>
+          <div className='expCard-company-desc-text'>
+            {content.comp_description}
+          </div>
 
         </div>
       </div>

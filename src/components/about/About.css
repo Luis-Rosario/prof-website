@@ -5,7 +5,8 @@
         background-color: var(--color-whiteish);
         box-shadow: 2px 2px var(--color-shadow);
         margin-top: 4rem;
-        color: black
+        color: black;
+        text-align: justify;
     }
     
     .title-section {

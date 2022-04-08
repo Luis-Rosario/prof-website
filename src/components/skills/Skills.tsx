@@ -20,7 +20,7 @@ const machineLearning: SkillCardContent = {
 const javaDev: SkillCardContent = {
   title: 'Java development',
   description: '6 years of experience. Used extensively throughout many of my university projects and assignments. Capable of building scalable and testable aplications using Spring.',
-  skillImgPath:  require('../../assets/spring.png'),
+  skillImgPath:  require('../../assets/spring2.png'),
 };
 
 const dataViz: SkillCardContent = {
@@ -75,11 +75,3 @@ function Skills() {
 
 export default Skills;
 
-  /**
-   * Machine learning
-   * Java development
-   * Data visualization
-   * Web development
-   * Git
-   * Cloud services
-   */
