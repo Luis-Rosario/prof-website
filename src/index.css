@@ -136,6 +136,10 @@ img {
     margin: auto;
 }
 
+#sec-title {
+    text-shadow: 0 0 2px var(--color-dark-blue), 0 0 2px var(--color-dark-blue)
+}
+
 
 /* ======== Adjust container sizes for smaller devices ======== */
 

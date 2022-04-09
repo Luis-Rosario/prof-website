@@ -23,7 +23,7 @@ function ExperCard({ content }: { content: ExpCardContent }) {
 
         <div id='header-left'>
           <h2 className='card-title'>{content.title}</h2>
-          <h6 className='card-date'>{content.startDate} - {content.endDate}</h6>
+          <h5 className='card-date'>{content.startDate} - {content.endDate}</h5>
         </div>
 
         <div className='header-right-sec'>
@@ -52,16 +52,14 @@ function ExperCard({ content }: { content: ExpCardContent }) {
           <ul className='responsability-List'>
             {responsabilityItem}
           </ul>
-
-
         </div>
 
         <div className='expCard-company-desc'>
           <div className='expCard-company-desc-text'>
             {content.comp_description}
           </div>
-
         </div>
+        
       </div>
 
     </div>

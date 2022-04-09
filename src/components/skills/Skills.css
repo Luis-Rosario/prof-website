@@ -16,10 +16,6 @@
     /*align-items: flex-start;*/
 }
 
-#sec-title {
-    text-shadow: 0 0 2px var(--color-dark-blue), 0 0 2px var(--color-dark-blue)
-}
-
 .skill-card {
     /*var(--color-light-transparent)*/
     border-radius: .5rem .5rem .5rem .5rem;

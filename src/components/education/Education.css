@@ -1,3 +1,126 @@
-#education {
-    height: 65vh;
+.education__container {
+    padding-top: 6rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.education-card-container {
+    padding: 1rem 2rem 2rem 2rem;
+    width: 80%;
+}
+
+.education-card {
+    background-color: var(--color-primary-variant);
+    border-radius: 1rem 1rem 1rem 1rem;
+    margin-top: 2rem;
+    padding: 2rem 2rem 2rem 2rem;
+    box-shadow: 2px 2px var(--color-shadow);
+    text-align: justify;
+    border-right: 3px solid white
+}
+
+.eduCard-header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.eduCard-header>.header-right-sec {
+    color: var(--color-light);
+}
+
+.header-right-sec {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.inst-logo>img {
+    height: 35px;
+    padding-left: 0.4rem;
+    object-fit: contain;
+}
+
+.edu-institution {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 57%;
+}
+
+.name-institution {
+    color: var(--color-light);
+}
+
+.edu-institution:hover>.name-institution {
+    color: var(--color-primary);
+    cursor: pointer;
+    text-decoration: underline solid;
+}
+
+.edu-institution:hover>.inst-logo {
+    cursor: pointer;
+}
+
+.eduCard-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.eduCard-courses-group {
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem 0.5rem;
+    color: black;
+    padding: 1rem 1rem 1rem 1rem;
+    width: 60%;
+    margin-top: 2rem;
+}
+
+.eduCard-favCourse-title {
+    display: flex;
+    align-items: center;
+    /*margin-bottom: 1rem;*/
+    white-space: nowrap;
+    color: rgba(0, 0, 0, 0.79);
+}
+
+.eduCard-favCourse-title::after {
+    content: '';
+    width: 90%;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.567);
+    margin-left: 1rem;
+}
+
+.eduCard-grade {
+    border-radius: 0.5rem 0.5rem;
+    padding: 1rem;
+    background-color: var(--color-light-transparent);
+    color: rgba(0, 0, 0, 0.79);
+    ;
+}
+
+.final-grade-group {
+    display: flex;
+    flex-direction: column;
+    padding: 0.3rem;
+    align-items: center
+}
+
+#grade {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.favCourse-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-left: 1rem;
 }

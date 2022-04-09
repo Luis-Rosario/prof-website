@@ -16,6 +16,7 @@
     margin-top: 2rem;
     padding: 2rem 2rem 2rem 2rem;
     box-shadow: 2px 2px var(--color-shadow);
+    border-right: 3px solid white
 }
 
 .expCard-header {
@@ -37,8 +38,7 @@
 }
 
 .expCard-responsab {
-    background-color: white/*var( --color-light-transparent)*/
-    ;
+    background-color: var( --color-white);
     color: black;
     padding: 1rem;
     border-radius: 0.5rem 0.5rem;
