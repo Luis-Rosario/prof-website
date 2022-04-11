@@ -19,10 +19,17 @@ function EduCard({ content }: { content: EduCardContent }) {
 
                     <div className='edu-institution' onClick={() => window.open('https://www.fct.unl.pt/en')}>
                         <h4 className='name-institution'>{content.institution}</h4>
-                        <div className='inst-logo'>
-                            <img src={content.logoPath} />
+                        
+                    </div>
+                    <div className='eduCard-grade'>
+                        <div className='eduCard-grade-title'>
+                            <h4>Final grade:</h4>
+                            <h5 id='grade'>{content.grade}</h5>
+                            <h5 id='grade'> out of 20</h5>
                         </div>
                     </div>
+                   
+
                 </div>
 
                 <div className='header-right-sec'>
@@ -46,17 +53,6 @@ function EduCard({ content }: { content: EduCardContent }) {
                     </ul>
                 </div>
 
-                <div className='eduCard-grade'>
-                    <div className='eduCard-grade-title'>
-                        <h4>Final grade:</h4>
-                    </div>
-                    <div className='final-grade-group'>
-                        <div id='grade'>
-                            <h5 >{content.grade}</h5>
-                            <h5>/20</h5>
-                        </div>
-                    </div>
-                </div>
 
             </div>
         </div>
@@ -68,3 +64,6 @@ function EduCard({ content }: { content: EduCardContent }) {
 export default EduCard;
 
 
+/**<div className='inst-logo'>
+                            <img src={content.logoPath} />
+                        </div> */

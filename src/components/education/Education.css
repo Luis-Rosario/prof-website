@@ -24,7 +24,6 @@
 .eduCard-header {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 1rem;
 }
 
 .eduCard-header>.header-right-sec {
@@ -47,7 +46,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 57%;
+    width: 75%;
 }
 
 .name-institution {
@@ -98,23 +97,28 @@
 }
 
 .eduCard-grade {
-    border-radius: 0.5rem 0.5rem;
-    padding: 1rem;
+    border-radius: 0.2rem 0.2rem;
     background-color: var(--color-light-transparent);
     color: rgba(0, 0, 0, 0.79);
+    width: 30%;
     ;
 }
 
-.final-grade-group {
+.eduCard-grade-title {
     display: flex;
-    flex-direction: column;
-    padding: 0.3rem;
-    align-items: center
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.eduCard-grade-title>#grade {
+    padding-left: 0.3rem;
 }
 
 #grade {
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .favCourse-list {
@@ -123,4 +127,19 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding-left: 1rem;
+}
+
+.favCourse-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.favCourse-list>li {
+    background-color: rgb(191, 169, 169);
+    border: solid 1px black;
+    border-radius: 0.5rem 0.5rem;
+    padding: 0.2rem;
+    margin: 0.2rem;
 }

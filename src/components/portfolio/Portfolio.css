@@ -1,3 +1,10 @@
-.portfolio {
-    height: 35vh;
+.viz__container {
+    position: fixed;
+    width: 80vw;
+    height: 1000vh;
+    top: 80%;
+    left: 60%;
+    margin-top: -30vw;
+    /* Negative half of height. */
+    margin-left: -50vw;
 }

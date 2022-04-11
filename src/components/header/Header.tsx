@@ -6,6 +6,7 @@ import ProfileImgNoBg from "../../assets/img-removebg-preview-cut.png";
 import Socials from "./Socials";
 
 
+
 function Header() {
   return (
    <header id="home">
